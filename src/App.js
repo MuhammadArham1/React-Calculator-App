@@ -17,7 +17,7 @@ function App() {
     let operatorsArray = ["+ ", "- ", "* ", "/ "];
 
     console.log(lastCharacter);
-
+//handles
     if (display === "" || operatorsArray.includes(lastCharacter)) return;
 
     setDisplay((prevDisplay) => {
@@ -90,7 +90,7 @@ function App() {
             handleClick={handleClick}
             handleEqual={handleEqual}
           />
-          <p className="text-white">Created by Faizan</p>
+          <p className="text-white">Created by ARHAM AZAM</p>
         </div>
       </div>
     </>
